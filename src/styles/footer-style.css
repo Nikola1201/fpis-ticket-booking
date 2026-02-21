@@ -1,0 +1,17 @@
+/* Footer Styles */
+.app-footer {
+  background: rgba(3, 6, 55, 0.95);
+  backdrop-filter: blur(20px);
+  color: var(--secondary-color);
+  padding: 1.5rem 0;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,50 @@
+
+.modal-overlay {
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  background: rgba(30, 10, 40, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-box {
+  background: #fff;
+  color: #222;
+  border-radius: 1rem;
+  padding: 2rem 2.5rem;
+  min-width: 320px;
+  max-width: 90vw;
+  box-shadow: 0 8px 32px rgba(60, 7, 83, 0.25);
+  text-align: center;
+  position: relative;
+}
+.modal-success {
+  border: 2px solid var(--accent-color);
+}
+.modal-error {
+  border: 2px solid #d32f2f;
+}
+.modal-close-btn {
+  margin-top: 1.5rem;
+  background: var(--accent-color);
+  color: #fff;
+  font-weight: 700;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  cursor: pointer;
+}
+.modal-box .ticket-cart{
+    margin-bottom: 1.5rem;
+}
+.reservation-form-group .modify-label {
+    color: var(--accent-color);
+}
+.modal-box .reservation-form-group input{
+     color: rgb(0,0,0);
+        background: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+}

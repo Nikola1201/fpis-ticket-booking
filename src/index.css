@@ -1,0 +1,54 @@
+:root {
+  --primary-gradient: linear-gradient(135deg, rgb(3, 6, 55) 0%, rgb(60, 7, 83) 25%, rgb(114, 4, 85) 50%, rgb(145, 10, 103) 75%, rgb(180, 20, 120) 100%);
+  --primary-gradient-hover: linear-gradient(135deg, rgb(10, 15, 75) 0%, rgb(75, 15, 100) 25%, rgb(130, 15, 100) 50%, rgb(165, 25, 120) 75%, rgb(200, 35, 140) 100%);
+  --primary-font: 'Lexend Giga', sans-serif;
+  --secondary-font: system-ui, -apple-system, sans-serif;
+  --primary-color: #ffffff;
+  --secondary-color: rgba(255, 255, 255, 0.8);
+  --accent-color: #ff4db8;
+  --accent-hover: #ff7ac5;
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-hover: rgba(255, 255, 255, 0.1);
+  --border-radius: 12px;
+  --border-radius-lg: 20px;
+  --shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.4);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, html {
+  width: 100%;
+  min-height: 100vh;
+  font-family: var(--primary-font);
+  display: flex;
+  flex-direction: column;
+  background: var(--primary-gradient);
+  color: var(--primary-color);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.reservation-form-group {
+  margin-bottom: 2rem;
+}

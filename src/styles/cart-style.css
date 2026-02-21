@@ -1,0 +1,54 @@
+.ticket-cart {
+  margin-top: 2rem;
+  background: rgba(60, 7, 83, 0.3);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: left;
+}
+
+.ticket-cart h4 {
+  margin-top: 0;
+  color: var(--accent-color);
+}
+
+.ticket-cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.remove-ticket-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  transition: background 0.2s;
+}
+
+.remove-ticket-btn:hover {
+  background: var(--accent-color);
+}
+
+.price-strikethrough {
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.price-discounted {
+  color: var(--accent-color);
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.price-earlybird {
+  margin-left: 8px;
+  color: var(--accent-color);
+}
